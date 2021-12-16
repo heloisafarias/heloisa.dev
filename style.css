@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+ 
+body {
+    text-align: center;
+    padding: 0px ;
+    margin: 0px;
+    font-family: Roboto Mono;
+    background-image: url('background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ 
+header {
+    text-align: center;
+}
+
+#lista-menu {
+    padding-top: 15px;
+    text-align: center;
+    display: inline-flex;
+ 
+}
+
+.li {
+    padding-left: 10px;
+    padding-right: 15px;
+    list-style-type:none;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 70%;
+
+}
+
+a {
+    color: black;
+    
+    text-decoration: none;
+}
+
+#avatar {
+    border-radius: 50%;
+    border: 5px solid #7B73BD ;
+    margin-top: 40px;
+}
+
+.gradiente {
+    background: red;
+    background: radial-gradient(346px at 0.3% 100%, rgb(62, 76, 167) 0%, rgb(255, 99, 145) 100.7%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5vw;
+    margin-bottom: 15px;
+}
+
+.texto {
+text-align: left;
+width: 80%;
+margin-left: 50px;
+}
+
+.link1 {
+    color: green;
+    font-size: 1.5vw;
+}
+
+.link2 {
+    color: blue;
+    font-size: 1.5vw;
+}
+
+.img {
+    border: 2px solid #7B73BD ;
+    margin-top: 10px;
+}
+
+.yt {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 700px) {
+    #lista-menu {
+    font-size: 0.8em;
+    padding-left: 10px;
+    
+    }
+    .li {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .texto {
+
+     padding-left: 0;
+     margin-left: 50px;
+     font-size: 1em;
+     text-align: center;
+
+    }
+    .gradiente {
+        font-size: 15vw;
+    }
+    .img {
+        border: 2px solid #7B73BD ;
+        margin-top: 10px;
+        width: 200px;
+    }
+
+    .link1 {
+        font-size: 15px;
+    }
+    .link2 {
+        font-size: 15px;
+    }
+    
+  }
+
+.links {
+    text-align: center;
+    display: inline;
+}
+
+.icones {
+    margin-right: 15px;
+    margin-bottom: 30px;
+
+}
+#techs {
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff3399;
+}
